@@ -1,4 +1,8 @@
 {
     "userspace_version": "1.0",
-    "build_targets": []
+    "build_targets": [
+        ["ergodox_ez/shine", "jimhansson"],
+        ["ergodox_ez/glow", "jimhansson"],
+        ["planck/rev3", "jimhansson"]
+    ]
 }
