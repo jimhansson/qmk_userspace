@@ -9,3 +9,6 @@ RUN sudo install-packages gcc-arm-none-eabi \
                           dfu-programmer \
                           dfu-util
 RUN python3 -m pip install --user qmk
+RUN qmk config user.qmk_home=/workspace/qmk_firmware
+RUN qmk config user.qmk_overlay=/workspace/qmk_userspace
+
