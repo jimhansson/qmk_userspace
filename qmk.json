@@ -3,6 +3,7 @@
     "build_targets": [
         ["ergodox_ez/shine", "jimhansson"],
         ["ergodox_ez/glow", "jimhansson"],
-        ["planck/rev3", "jimhansson"]
+        ["planck/rev3", "jimhansson"],
+        ["crkbd/rev1", "jimhansson"]
     ]
 }
